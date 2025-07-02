@@ -179,7 +179,7 @@ def get_clear_pattern_file(clear_pattern_mode, path=None):
         if first_rho < 0.5:
             return table_patterns['clear_from_out']
         else:
-            return random.choice([table_patterns['clear_from_in'], table_patterns['clear_sideway']])
+            return table_patterns['clear_from_in']
     else:
         if clear_pattern_mode not in table_patterns:
             return False
